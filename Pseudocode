@@ -1,0 +1,23 @@
+Pseudocode
+
+Step 1 : gaming board
+
+create a board of 3x3 boxes, each box need to be linked to a precise place and be able to be marked by player. Meaning two values per box, resembling a key-values dictionary. Name boxes from 1 to 9 (keys), empty values at first
+Step 2 : visual board
+
+need to be printable so that it can visually represent the state of the game after each turn
+Step 3 : define players player 1 = (X) player 2 = (O)
+
+Step 4 : create function explaining each turn Player 1 starts Print visual board - Ask player input on where they want to play on gaming board (keys from 1 to 9 as defined in step 1) Mark chosen key's value with player's mark (X) Warning:
+
+code must be strong and not accept another value than 1 to 9
+code must check if place is available (meaning 'value' = empty)
+if not ask player to input another int End of turn condition:
+game does not end (no winner or draw) - call appropriate function
+Player 2 plays with same conditions
+
+Step 5 : create function to define how game ends 2 conditions for game to end :
+
+one player wins wins = all 3 in a row on horizontal, vertical or diagonal values from gaming board dictionary
+dram
+Step 6: play again ? :)
